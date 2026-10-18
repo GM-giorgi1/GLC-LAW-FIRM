@@ -1,0 +1,6 @@
+{
+  "name": "GLC Law Firm - Trusted Legal Counsel",
+  "description": "Premium lawyer portfolio and corporate legal counsel for growing businesses, founded by Giorgi Gubeladze.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

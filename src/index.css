@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter+Tight:wght@400;500;600;700&display=swap');
+
+.font-antonio { font-family: 'Antonio', sans-serif !important; }
+.font-inter-tight { font-family: 'Inter Tight', sans-serif !important; }
+.font-cormorant { font-family: 'Cormorant Garamond', Georgia, serif !important; }
+
+@keyframes footerMarqueeAnim {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.footer-marquee-track {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: max-content;
+  will-change: transform;
+  animation: footerMarqueeAnim 220s linear infinite;
+  transition: animation-duration 0.8s ease;
+}
+.footer-marquee-track.slowed {
+  animation-duration: 420s;
+}
